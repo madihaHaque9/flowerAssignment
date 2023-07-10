@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0px auto;
+    margin:  auto;
     padding: 30px 50px 0px 40px;
 }
 .header-container .h1-pic{
@@ -23,6 +23,9 @@ body{
     height: 400px;
     width: 300px;
     display: block;
+}
+.underline{
+    text-decoration: underline;
 }
 .btn-primary{
     border: none;
@@ -53,10 +56,10 @@ body{
   justify-content: center;
     /* width: 70%; */
     
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     /* margin: 50px 30rem 50px 60px; */
-    justify-self: center;
+    /* justify-self: center; */
 }
 .flower{
     width: 500px;
@@ -113,4 +116,55 @@ background: rgba(5, 151, 160, 0.15);
     background: rgba(5, 151, 160, 0.15);
 
 }
- 
+.header-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+    height:200px ;
+    width: 450px;
+    background: rgba(39, 39, 39, 0.05);
+    font-size: 0.6rem;
+    margin: auto;
+
+
+    background-size: 350px;}
+    .header-3 .flower-1-img img {
+        height: 90px;
+        width: 100px;
+    }
+ /* main  */
+ .main-container{
+    display: flex;
+    background-color:rgba(229, 84, 115, 0.05);
+    margin-top: 70px;
+    padding: 50px;
+    gap: 10px;
+ }
+ .main-des{
+  width: 50%;
+  margin: auto;
+ }
+ .insta-pics{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 100px 300px;
+    padding: 5px ;
+    width: 50%;
+
+ }
+ .insta-conts{
+    text-align: center;
+    margin-top: 50px;
+
+ }
+ .insta-pic-class{
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 10px 5px 0px 5px;
+
+ }
