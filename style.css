@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 0px auto;
     padding: 30px 50px 0px 40px;
 }
 .header-container .h1-pic{
@@ -37,12 +37,80 @@ body{
     color: black;
 }
 .pink-flower{
-    width: 50%;
+    /* width: 50%; */
+    
+    /* margin: 50px 150px 50px 250px; */
+    /* margin: 0 auto;
+    width: 50%; */
+    height: 600px;
+    /* width: 600px; */
+    position: relative;
     margin: auto;
     display: flex;
+    padding: 50px 0;
+   
+  align-items: center;
+  justify-content: center;
+    /* width: 70%; */
+    
     align-items: center;
+    text-align: center;
+    /* margin: 50px 30rem 50px 60px; */
+    justify-self: center;
+}
+.flower{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+   
+   
+
 }
 .pink-flower-img{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 100px 300px;
+    padding: 5px ;
 }
+.pink-flower-img .img-6{
+    /* width: 300px; */
+    background-size: 400px;
+    /* height: 200px; */
+    
+}
+.pink-flower-img .img-6 img{
+    width: 150px;
+    height: 150px;
+    display: block;
+   
+   
+    padding: 10px 5px 0px 5px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+    
+    
+
+}
+.pink-flower-img .img-5 img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 10px 5px 0px 5px;
+ 
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.pink-flower-img .img-7 img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding: 10px 5px 0px 5px;
+ 
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+ 
