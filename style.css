@@ -8,6 +8,10 @@ html{
 body{
     font-style: 'Merriweather', serif; ;
 }
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
 /* header design */
 .header-container{
     background-color: rgba(229, 84, 115, 0.10);
@@ -18,8 +22,7 @@ body{
     padding: 30px 50px 0px 40px;
 }
 .header-container .h1-pic{
-    /* padding: 0px;
-    margin-bottom: 0px; */
+    
     height: 400px;
     width: 300px;
     display: block;
@@ -40,13 +43,9 @@ body{
     color: black;
 }
 .pink-flower{
-    /* width: 50%; */
-    
-    /* margin: 50px 150px 50px 250px; */
-    /* margin: 0 auto;
-    width: 50%; */
+   
     height: 600px;
-    /* width: 600px; */
+   
     position: relative;
     margin: auto;
     display: flex;
@@ -54,12 +53,9 @@ body{
    
   align-items: center;
   justify-content: center;
-    /* width: 70%; */
     
-    /* align-items: center; */
     text-align: center;
-    /* margin: 50px 30rem 50px 60px; */
-    /* justify-self: center; */
+  
 }
 .flower{
     width: 500px;
@@ -78,9 +74,9 @@ body{
     padding: 5px ;
 }
 .pink-flower-img .img-6{
-    /* width: 300px; */
+  
     background-size: 400px;
-    /* height: 200px; */
+    
     
 }
 .pink-flower-img .img-6 img{
@@ -211,4 +207,13 @@ background: rgba(5, 151, 160, 0.15);
     width: 100%;
     padding: 10px;
 
+ }
+ footer{
+    background-color: #111010;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
  }
